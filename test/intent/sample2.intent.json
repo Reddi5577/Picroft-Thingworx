@@ -1,0 +1,7 @@
+{
+	"utterance":"Blood Pressure",
+	"intent_type": "BloodPressureIntent",
+	"intent": {
+	  "BloodPressureKeyword": "BP"
+	}
+}
