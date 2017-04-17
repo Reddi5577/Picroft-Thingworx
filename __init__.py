@@ -19,8 +19,7 @@ class BloodPressureSkill(MycroftSkill):
         super(BloodPressureSkill, self).__init__("BloodPressureSkill")
 
     def initialize(self):
-        intent = IntentBuilder("BloodPressureIntent").require("QueryKeyword") \
-            .require("BloodPressure").build()
+        intent = IntentBuilder("BloodPressureIntent").require("BloodPressureKeyword").build()
         self.register_intent(intent, self.handle_intent)
 
 
