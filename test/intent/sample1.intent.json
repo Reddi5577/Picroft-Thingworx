@@ -2,6 +2,6 @@
 	"utterance":"Blood Pressure",
 	"intent_type": "BloodPressureIntent",
 	"intent": {
-	  "BloodPressure": "Blood Pressure"
+	  "BloodPressureKeyword": "Blood Pressure"
 	}
 }
