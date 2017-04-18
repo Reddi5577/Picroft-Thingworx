@@ -1,5 +1,5 @@
 {
-	"utterance":"Blood Pressure",
+	"utterance":"Tell my Blood Pressure",
 	"intent_type": "BloodPressureIntent",
 	"intent": {
 	  "BloodPressureKeyword": "Blood Pressure"
